@@ -4,7 +4,15 @@
 
 author: yuechen.gu
 
-## 题目案例
+### Git工程目录
+
+- `cases`：套件和用例（py脚本，robot脚本运行时自动生成）
+- `cfg`：配置文件
+- `data`：io用excel文件
+- `extend`: Robot Framework扩展库
+- `library`: 自定义库
+- `reports`: 执行结果报告
+
 ### 安装
 ```bash
 # 运行前确保已下载以下库

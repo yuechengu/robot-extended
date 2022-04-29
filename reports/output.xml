@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.7.9 on win32)" generated="20220429 20:44:56.984" rpa="false" schemaversion="3">
+<suite id="s1" name="Cases" source="D:\StudyProjects\robot-extended\cases">
+<suite id="s1-s1" name="RobotSpareBin" source="D:\StudyProjects\robot-extended\cases\RobotSpareBin">
+<suite id="s1-s1-s1" name="自动提交" source="D:\StudyProjects\robot-extended\cases\RobotSpareBin\自动提交.robot">
+<kw name="Suite Setup" library="F" type="SETUP">
+<msg timestamp="20220429 20:45:00.989" level="INFO" html="true">登入</msg>
+<status status="PASS" starttime="20220429 20:44:57.603" endtime="20220429 20:45:00.989"/>
+</kw>
+<test id="s1-s1-s1-t1" name="自动提交销售数据" line="15">
+<kw name="Teststeps" library="AutoSubmitSalesData">
+<msg timestamp="20220429 20:45:00.991" level="INFO" html="true">
+-- 第 1 步 -- 驱动浏览器，进入主页登录 
+</msg>
+<msg timestamp="20220429 20:45:03.154" level="INFO" html="true">
+** 检查点 **  是否登陆成功 </msg>
+<msg timestamp="20220429 20:45:03.155" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:03.155" level="INFO" html="true">
+-- 第 2 步 -- 提交数据 
+</msg>
+<msg timestamp="20220429 20:45:03.647" level="INFO" html="true">
+** 检查点 **  第1条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:03.647" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:03.937" level="INFO" html="true">
+** 检查点 **  第2条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:03.937" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:04.238" level="INFO" html="true">
+** 检查点 **  第3条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:04.239" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:04.557" level="INFO" html="true">
+** 检查点 **  第4条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:04.558" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:04.855" level="INFO" html="true">
+** 检查点 **  第5条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:04.855" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:05.121" level="INFO" html="true">
+** 检查点 **  第6条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:05.121" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:05.386" level="INFO" html="true">
+** 检查点 **  第7条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:05.386" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:05.673" level="INFO" html="true">
+** 检查点 **  第8条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:05.673" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:05.967" level="INFO" html="true">
+** 检查点 **  第9条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:05.968" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:06.227" level="INFO" html="true">
+** 检查点 **  第10条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:06.228" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:06.490" level="INFO" html="true">
+** 检查点 **  第11条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:06.490" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:06.760" level="INFO" html="true">
+** 检查点 **  第12条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:06.761" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:07.033" level="INFO" html="true">
+** 检查点 **  第13条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:07.033" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:07.280" level="INFO" html="true">
+** 检查点 **  第14条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:07.280" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:07.551" level="INFO" html="true">
+** 检查点 **  第15条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:07.552" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:07.809" level="INFO" html="true">
+** 检查点 **  第16条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:07.809" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:08.068" level="INFO" html="true">
+** 检查点 **  第17条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:08.068" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:08.326" level="INFO" html="true">
+** 检查点 **  第18条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:08.326" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:08.596" level="INFO" html="true">
+** 检查点 **  第19条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:08.596" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:08.861" level="INFO" html="true">
+** 检查点 **  第20条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:08.861" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:09.128" level="INFO" html="true">
+** 检查点 **  第21条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:09.128" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:09.404" level="INFO" html="true">
+** 检查点 **  第22条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:09.404" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:09.840" level="INFO" html="true">
+** 检查点 **  第23条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:09.841" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:10.115" level="INFO" html="true">
+** 检查点 **  第24条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:10.115" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:10.387" level="INFO" html="true">
+** 检查点 **  第25条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:10.387" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:10.688" level="INFO" html="true">
+** 检查点 **  第26条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:10.688" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:10.961" level="INFO" html="true">
+** 检查点 **  第27条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:10.962" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:11.232" level="INFO" html="true">
+** 检查点 **  第28条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:11.233" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:11.515" level="INFO" html="true">
+** 检查点 **  第29条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:11.515" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:11.784" level="INFO" html="true">
+** 检查点 **  第30条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:11.784" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:12.074" level="INFO" html="true">
+** 检查点 **  第31条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:12.074" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:12.356" level="INFO" html="true">
+** 检查点 **  第32条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:12.357" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:12.640" level="INFO" html="true">
+** 检查点 **  第33条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:12.641" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:12.923" level="INFO" html="true">
+** 检查点 **  第34条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:12.923" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:13.826" level="INFO" html="true">
+** 检查点 **  第35条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:13.827" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:14.105" level="INFO" html="true">
+** 检查点 **  第36条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:14.106" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:14.393" level="INFO" html="true">
+** 检查点 **  第37条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:14.393" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:14.684" level="INFO" html="true">
+** 检查点 **  第38条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:14.685" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:14.985" level="INFO" html="true">
+** 检查点 **  第39条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:14.985" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:15.283" level="INFO" html="true">
+** 检查点 **  第40条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:15.283" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:15.564" level="INFO" html="true">
+** 检查点 **  第41条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:15.564" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:16.004" level="INFO" html="true">
+** 检查点 **  第42条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:16.004" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:16.300" level="INFO" html="true">
+** 检查点 **  第43条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:16.300" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:16.582" level="INFO" html="true">
+** 检查点 **  第44条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:16.582" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:16.872" level="INFO" html="true">
+** 检查点 **  第45条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:16.872" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:17.166" level="INFO" html="true">
+** 检查点 **  第46条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:17.166" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:17.443" level="INFO" html="true">
+** 检查点 **  第47条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:17.443" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:17.724" level="INFO" html="true">
+** 检查点 **  第48条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:17.724" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:18.013" level="INFO" html="true">
+** 检查点 **  第49条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:18.013" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:18.343" level="INFO" html="true">
+** 检查点 **  第50条数据是否提交成功 </msg>
+<msg timestamp="20220429 20:45:18.344" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:18.351" level="INFO" html="true">
+** 检查点 **  是否全部提交成功 </msg>
+<msg timestamp="20220429 20:45:18.351" level="INFO" html="true">----&gt;  通过
+</msg>
+<status status="PASS" starttime="20220429 20:45:00.991" endtime="20220429 20:45:18.352"/>
+</kw>
+<status status="PASS" starttime="20220429 20:45:00.990" endtime="20220429 20:45:18.352"/>
+</test>
+<kw name="Suite Teardown" library="F" type="TEARDOWN">
+<msg timestamp="20220429 20:45:20.461" level="INFO" html="true">登出</msg>
+<status status="PASS" starttime="20220429 20:45:18.353" endtime="20220429 20:45:20.461"/>
+</kw>
+<status status="PASS" starttime="20220429 20:44:57.009" endtime="20220429 20:45:20.461"/>
+</suite>
+<status status="PASS" starttime="20220429 20:44:57.007" endtime="20220429 20:45:20.463"/>
+</suite>
+<suite id="s1-s2" name="疫情实时大数据报告" source="D:\StudyProjects\robot-extended\cases\疫情实时大数据报告">
+<suite id="s1-s2-s1" name="自动采集" source="D:\StudyProjects\robot-extended\cases\疫情实时大数据报告\自动采集.robot">
+<kw name="Suite Setup" library="F" type="SETUP">
+<status status="PASS" starttime="20220429 20:45:20.476" endtime="20220429 20:45:23.648"/>
+</kw>
+<test id="s1-s2-s1-t1" name="自动采集疫情速报" line="17">
+<kw name="Teststeps" library="AutoCollectCovidNews">
+<msg timestamp="20220429 20:45:23.649" level="INFO" html="true">
+-- 第 1 步 -- 进入页面 
+</msg>
+<msg timestamp="20220429 20:45:23.657" level="INFO" html="true">
+** 检查点 **  是否进入成功 </msg>
+<msg timestamp="20220429 20:45:23.658" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:23.658" level="INFO" html="true">
+-- 第 2 步 -- 展开全部 
+</msg>
+<msg timestamp="20220429 20:45:23.812" level="INFO" html="true">
+** 检查点 **  点击展开全部是否成功 </msg>
+<msg timestamp="20220429 20:45:23.812" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:23.812" level="INFO" html="true">
+-- 第 3 步 -- 爬取国内疫情速报写入excel 
+</msg>
+<msg timestamp="20220429 20:45:23.832" level="INFO" html="true">['省份', '地区', '新增本土', '新增无症状', '风险区域']</msg>
+<msg timestamp="20220429 20:45:23.962" level="INFO" html="true">['-', '台湾', '23815', '-', '0']</msg>
+<msg timestamp="20220429 20:45:24.008" level="INFO" html="true">['-', '上海', '5487', '9547', '13']</msg>
+<msg timestamp="20220429 20:45:24.047" level="INFO" html="true">['-', '香港', '1101', '-', '0']</msg>
+<msg timestamp="20220429 20:45:24.294" level="INFO" html="true">['辽宁', '丹东', '1', '91', '5']</msg>
+<msg timestamp="20220429 20:45:24.334" level="INFO" html="true">['江西', '上饶', '4', '74', '0']</msg>
+<msg timestamp="20220429 20:45:24.374" level="INFO" html="true">['吉林', '长春', '34', '39', '8']</msg>
+<msg timestamp="20220429 20:45:24.411" level="INFO" html="true">['-', '北京', '60', '7', '25']</msg>
+<msg timestamp="20220429 20:45:24.454" level="INFO" html="true">['山东', '济南', '7', '25', '0']</msg>
+<msg timestamp="20220429 20:45:24.496" level="INFO" html="true">['浙江', '杭州', '24', '6', '0']</msg>
+<msg timestamp="20220429 20:45:24.539" level="INFO" html="true">['江苏', '徐州', '2', '27', '2']</msg>
+<msg timestamp="20220429 20:45:24.585" level="INFO" html="true">['安徽', '亳州', '0', '21', '0']</msg>
+<msg timestamp="20220429 20:45:24.626" level="INFO" html="true">['新疆', '乌鲁木齐', '0', '18', '0']</msg>
+<msg timestamp="20220429 20:45:24.670" level="INFO" html="true">['广东', '广州', '7', '7', '0']</msg>
+<msg timestamp="20220429 20:45:24.714" level="INFO" html="true">['江苏', '扬州', '0', '12', '0']</msg>
+<msg timestamp="20220429 20:45:24.759" level="INFO" html="true">['黑龙江', '哈尔滨', '4', '6', '37']</msg>
+<msg timestamp="20220429 20:45:24.800" level="INFO" html="true">['浙江', '丽水', '1', '7', '0']</msg>
+<msg timestamp="20220429 20:45:24.842" level="INFO" html="true">['吉林', '白城', '6', '0', '1']</msg>
+<msg timestamp="20220429 20:45:24.884" level="INFO" html="true">['吉林', '吉林市', '1', '4', '0']</msg>
+<msg timestamp="20220429 20:45:24.926" level="INFO" html="true">['山东', '烟台', '0', '5', '4']</msg>
+<msg timestamp="20220429 20:45:24.969" level="INFO" html="true">['江苏', '常州', '0', '5', '0']</msg>
+<msg timestamp="20220429 20:45:25.012" level="INFO" html="true">['浙江', '金华', '4', '0', '0']</msg>
+<msg timestamp="20220429 20:45:25.055" level="INFO" html="true">['内蒙古', '呼伦贝尔', '4', '0', '4']</msg>
+<msg timestamp="20220429 20:45:25.098" level="INFO" html="true">['湖南', '邵阳', '3', '1', '5']</msg>
+<msg timestamp="20220429 20:45:25.143" level="INFO" html="true">['浙江', '衢州', '2', '2', '0']</msg>
+<msg timestamp="20220429 20:45:25.186" level="INFO" html="true">['浙江', '台州', '0', '4', '0']</msg>
+<msg timestamp="20220429 20:45:25.231" level="INFO" html="true">['河北', '保定', '0', '4', '0']</msg>
+<msg timestamp="20220429 20:45:25.269" level="INFO" html="true">['-', '天津', '0', '4', '0']</msg>
+<msg timestamp="20220429 20:45:25.311" level="INFO" html="true">['吉林', '延边', '1', '2', '0']</msg>
+<msg timestamp="20220429 20:45:25.354" level="INFO" html="true">['河南', '濮阳', '1', '2', '0']</msg>
+<msg timestamp="20220429 20:45:25.397" level="INFO" html="true">['山东', '德州', '0', '3', '0']</msg>
+<msg timestamp="20220429 20:45:25.453" level="INFO" html="true">['山东', '临沂', '0', '3', '0']</msg>
+<msg timestamp="20220429 20:45:25.499" level="INFO" html="true">['浙江', '温州', '1', '1', '0']</msg>
+<msg timestamp="20220429 20:45:25.545" level="INFO" html="true">['四川', '达州', '1', '1', '0']</msg>
+<msg timestamp="20220429 20:45:25.587" level="INFO" html="true">['-', '重庆', '1', '1', '0']</msg>
+<msg timestamp="20220429 20:45:25.634" level="INFO" html="true">['江苏', '苏州', '0', '2', '2']</msg>
+<msg timestamp="20220429 20:45:25.680" level="INFO" html="true">['河南', '安阳', '0', '2', '0']</msg>
+<msg timestamp="20220429 20:45:25.724" level="INFO" html="true">['云南', '红河州', '0', '2', '0']</msg>
+<msg timestamp="20220429 20:45:25.770" level="INFO" html="true">['湖北', '黄冈', '0', '2', '0']</msg>
+<msg timestamp="20220429 20:45:25.818" level="INFO" html="true">['安徽', '黄山', '0', '2', '0']</msg>
+<msg timestamp="20220429 20:45:25.863" level="INFO" html="true">['四川', '成都', '1', '0', '0']</msg>
+<msg timestamp="20220429 20:45:25.909" level="INFO" html="true">['四川', '巴中', '1', '0', '0']</msg>
+<msg timestamp="20220429 20:45:25.955" level="INFO" html="true">['湖南', '长沙', '1', '0', '0']</msg>
+<msg timestamp="20220429 20:45:26.000" level="INFO" html="true">['福建', '南平', '1', '0', '0']</msg>
+<msg timestamp="20220429 20:45:26.045" level="INFO" html="true">['江苏', '南京', '1', '0', '0']</msg>
+<msg timestamp="20220429 20:45:26.091" level="INFO" html="true">['河南', '信阳', '1', '0', '2']</msg>
+<msg timestamp="20220429 20:45:26.137" level="INFO" html="true">['广西', '北海', '1', '0', '0']</msg>
+<msg timestamp="20220429 20:45:26.185" level="INFO" html="true">['云南', '文山', '1', '0', '0']</msg>
+<msg timestamp="20220429 20:45:26.232" level="INFO" html="true">['浙江', '宁波', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:26.279" level="INFO" html="true">['山东', '滨州', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:26.327" level="INFO" html="true">['山东', '聊城', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:26.374" level="INFO" html="true">['山东', '菏泽', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:26.422" level="INFO" html="true">['四川', '内江', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:26.469" level="INFO" html="true">['江西', '南昌', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:26.517" level="INFO" html="true">['江西', '抚州', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:26.565" level="INFO" html="true">['河南', '郑州', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:26.613" level="INFO" html="true">['广西', '百色', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:26.660" level="INFO" html="true">['云南', '西双版纳傣族自治州', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:26.710" level="INFO" html="true">['湖北', '咸宁', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:26.758" level="INFO" html="true">['宁夏', '银川', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:26.807" level="INFO" html="true">['福建', '宁德', '0', '0', '2']</msg>
+<msg timestamp="20220429 20:45:26.855" level="INFO" html="true">['河北', '邢台', '0', '0', '1']</msg>
+<msg timestamp="20220429 20:45:26.904" level="INFO" html="true">['河北', '唐山', '0', '0', '1']</msg>
+<msg timestamp="20220429 20:45:26.955" level="INFO" html="true">['河北', '邯郸', '0', '0', '1']</msg>
+<msg timestamp="20220429 20:45:27.096" level="INFO">成功写入文件: D:\StudyProjects\robot-extended\library\..\data\CovidNews.xlsx</msg>
+<status status="PASS" starttime="20220429 20:45:23.649" endtime="20220429 20:45:27.096"/>
+</kw>
+<status status="PASS" starttime="20220429 20:45:23.648" endtime="20220429 20:45:27.097"/>
+</test>
+<test id="s1-s2-s1-t2" name="自动采集疫情数据" line="22">
+<kw name="Teststeps" library="AutoCollectCovidData">
+<msg timestamp="20220429 20:45:27.099" level="INFO" html="true">
+-- 第 1 步 -- 进入页面 
+</msg>
+<msg timestamp="20220429 20:45:27.103" level="INFO" html="true">
+** 检查点 **  是否进入成功 </msg>
+<msg timestamp="20220429 20:45:27.104" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:27.104" level="INFO" html="true">
+-- 第 2 步 -- 展开全部 
+</msg>
+<msg timestamp="20220429 20:45:27.281" level="INFO" html="true">
+** 检查点 **  点击展开全部是否成功 </msg>
+<msg timestamp="20220429 20:45:27.281" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220429 20:45:27.282" level="INFO" html="true">
+-- 第 3 步 -- 爬取国内疫情数据写入excel 
+</msg>
+<msg timestamp="20220429 20:45:27.309" level="INFO" html="true">['省市地区', '新增确诊', '新增无症状', '累计确诊', '风险地区']</msg>
+<msg timestamp="20220429 20:45:27.370" level="INFO" html="true">['台湾', '23815', '-', '100753', '0']</msg>
+<msg timestamp="20220429 20:45:27.405" level="INFO" html="true">['上海', '5489', '9547', '56300', '13']</msg>
+<msg timestamp="20220429 20:45:27.435" level="INFO" html="true">['香港', '1101', '-', '330599', '0']</msg>
+<msg timestamp="20220429 20:45:27.462" level="INFO" html="true">['北京', '62', '7', '2065', '25']</msg>
+<msg timestamp="20220429 20:45:27.483" level="INFO" html="true">['吉林', '42', '45', '40175', '9']</msg>
+<msg timestamp="20220429 20:45:27.504" level="INFO" html="true">['浙江', '33', '22', '3102', '0']</msg>
+<msg timestamp="20220429 20:45:27.526" level="INFO" html="true">['广东', '10', '32', '7004', '0']</msg>
+<msg timestamp="20220429 20:45:27.786" level="INFO" html="true">['山东', '7', '40', '2702', '4']</msg>
+<msg timestamp="20220429 20:45:27.820" level="INFO" html="true">['黑龙江', '5', '7', '2936', '37']</msg>
+<msg timestamp="20220429 20:45:27.847" level="INFO" html="true">['四川', '4', '19', '2015', '0']</msg>
+<msg timestamp="20220429 20:45:27.871" level="INFO" html="true">['内蒙古', '4', '0', '1743', '4']</msg>
+<msg timestamp="20220429 20:45:27.898" level="INFO" html="true">['湖南', '4', '1', '1383', '5']</msg>
+<msg timestamp="20220429 20:45:27.922" level="INFO" html="true">['江西', '4', '76', '1362', '0']</msg>
+<msg timestamp="20220429 20:45:27.943" level="INFO" html="true">['福建', '3', '0', '3014', '2']</msg>
+<msg timestamp="20220429 20:45:27.965" level="INFO" html="true">['江苏', '3', '46', '2195', '4']</msg>
+<msg timestamp="20220429 20:45:27.985" level="INFO" html="true">['河南', '2', '5', '2900', '2']</msg>
+<msg timestamp="20220429 20:45:28.005" level="INFO" html="true">['广西', '2', '33', '1581', '0']</msg>
+<msg timestamp="20220429 20:45:28.026" level="INFO" html="true">['云南', '1', '4', '2117', '0']</msg>
+<msg timestamp="20220429 20:45:28.046" level="INFO" html="true">['辽宁', '1', '91', '1644', '5']</msg>
+<msg timestamp="20220429 20:45:28.067" level="INFO" html="true">['重庆', '1', '1', '697', '0']</msg>
+<msg timestamp="20220429 20:45:28.088" level="INFO" html="true">['湖北', '0', '8', '68398', '0']</msg>
+<msg timestamp="20220429 20:45:28.108" level="INFO" html="true">['陕西', '0', '0', '3277', '0']</msg>
+<msg timestamp="20220429 20:45:28.128" level="INFO" html="true">['河北', '0', '4', '1998', '3']</msg>
+<msg timestamp="20220429 20:45:28.151" level="INFO" html="true">['天津', '0', '4', '1803', '0']</msg>
+<msg timestamp="20220429 20:45:28.171" level="INFO" html="true">['安徽', '0', '23', '1065', '0']</msg>
+<msg timestamp="20220429 20:45:28.189" level="INFO" html="true">['新疆', '0', '18', '999', '0']</msg>
+<msg timestamp="20220429 20:45:28.209" level="INFO" html="true">['甘肃', '0', '0', '681', '0']</msg>
+<msg timestamp="20220429 20:45:28.229" level="INFO" html="true">['山西', '0', '0', '418', '0']</msg>
+<msg timestamp="20220429 20:45:28.250" level="INFO" html="true">['海南', '0', '0', '288', '0']</msg>
+<msg timestamp="20220429 20:45:28.270" level="INFO" html="true">['贵州', '0', '0', '179', '0']</msg>
+<msg timestamp="20220429 20:45:28.290" level="INFO" html="true">['宁夏', '0', '1', '122', '0']</msg>
+<msg timestamp="20220429 20:45:28.310" level="INFO" html="true">['青海', '0', '0', '95', '0']</msg>
+<msg timestamp="20220429 20:45:28.333" level="INFO" html="true">['澳门', '0', '-', '82', '0']</msg>
+<msg timestamp="20220429 20:45:28.352" level="INFO" html="true">['西藏', '0', '0', '1', '0']</msg>
+<msg timestamp="20220429 20:45:28.436" level="INFO">成功写入文件: D:\StudyProjects\robot-extended\library\..\data\CovidStatus.xlsx</msg>
+<status status="PASS" starttime="20220429 20:45:27.099" endtime="20220429 20:45:28.436"/>
+</kw>
+<status status="PASS" starttime="20220429 20:45:27.098" endtime="20220429 20:45:28.437"/>
+</test>
+<kw name="Suite Teardown" library="F" type="TEARDOWN">
+<status status="PASS" starttime="20220429 20:45:28.438" endtime="20220429 20:45:30.538"/>
+</kw>
+<status status="PASS" starttime="20220429 20:45:20.468" endtime="20220429 20:45:30.538"/>
+</suite>
+<status status="PASS" starttime="20220429 20:45:20.464" endtime="20220429 20:45:30.540"/>
+</suite>
+<status status="PASS" starttime="20220429 20:44:56.986" endtime="20220429 20:45:30.543"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Cases">Cases</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="RobotSpareBin">Cases.RobotSpareBin</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="自动提交">Cases.RobotSpareBin.自动提交</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s2" name="疫情实时大数据报告">Cases.疫情实时大数据报告</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s2-s1" name="自动采集">Cases.疫情实时大数据报告.自动采集</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
