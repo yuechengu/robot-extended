@@ -1,6 +1,6 @@
 ## Robot Framework Extended
 
-基于Python脚本实现的Robot Framework框架
+基于Python脚本驱动的Robot Framework框架
 
 author: yuechen.gu
 
