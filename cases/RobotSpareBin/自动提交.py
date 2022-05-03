@@ -30,7 +30,7 @@ class AutoSubmitSalesData:
     def teststeps(self):
         STEP(1, '驱动浏览器，进入主页登录')
         driver = get_global_webdriver()
-        CHECK_POINT('是否登陆成功',
+        CHECK_POINT('是否登录成功',
                     isElementPresent(driver, 'id', 'logout'))
 
         STEP(2, '提交数据')
