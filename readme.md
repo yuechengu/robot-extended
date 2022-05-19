@@ -37,6 +37,7 @@ run --suite 自动提交
 ```bash
 # 运行套件Q2
 run --suite 自动采集
+run --suite 绘制地图
 ```
 
 ### Q3 爬取自如房源数据
