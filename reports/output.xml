@@ -1,33 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0 (Python 3.7.5 on win32)" generated="20220519 17:50:28.996" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0 (Python 3.7.5 on win32)" generated="20220614 14:48:00.951" rpa="false" schemaversion="3">
 <suite id="s1" name="Cases" source="D:\StudyProjects\robot-extended\cases">
 <suite id="s1-s1" name="疫情实时大数据报告" source="D:\StudyProjects\robot-extended\cases\疫情实时大数据报告">
-<suite id="s1-s1-s1" name="绘制地图" source="D:\StudyProjects\robot-extended\cases\疫情实时大数据报告\绘制地图.robot">
-<test id="s1-s1-s1-t1" name="绘制国内疫情地图" line="11">
-<kw name="Teststeps" library="DrawCovidGeo">
-<status status="PASS" starttime="20220519 17:50:29.527" endtime="20220519 17:50:30.057"/>
+<suite id="s1-s1-s1" name="自动采集" source="D:\StudyProjects\robot-extended\cases\疫情实时大数据报告\自动采集.robot">
+<kw name="Suite Setup" library="F" type="SETUP">
+<status status="PASS" starttime="20220614 14:48:01.462" endtime="20220614 14:48:04.745"/>
 </kw>
-<status status="PASS" starttime="20220519 17:50:29.526" endtime="20220519 17:50:30.058"/>
+<test id="s1-s1-s1-t1" name="自动采集疫情速报" line="17">
+<kw name="Teststeps" library="AutoCollectCovidNews">
+<msg timestamp="20220614 14:48:04.747" level="INFO" html="true">
+-- 第 1 步 -- 进入页面 
+</msg>
+<msg timestamp="20220614 14:48:04.783" level="INFO" html="true">
+** 检查点 **  是否进入成功 </msg>
+<msg timestamp="20220614 14:48:04.783" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220614 14:48:04.784" level="INFO" html="true">
+-- 第 2 步 -- 展开全部 
+</msg>
+<msg timestamp="20220614 14:48:10.821" level="FAIL">NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ptab-0"]/div[2]/div[2]/div[3]/div/span"}
+  (Session info: chrome=102.0.5005.63)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00C1D953+2414931]
+	Ordinal0 [0x00BAF5E1+1963489]
+	Ordinal0 [0x00A9C6B8+837304]
+	Ordinal0 [0x00AC9500+1021184]
+	Ordinal0 [0x00AC979B+1021851]
+	Ordinal0 [0x00AF6502+1205506]
+	Ordinal0 [0x00AE44E4+1131748]
+	Ordinal0 [0x00AF4812+1198098]
+	Ordinal0 [0x00AE42B6+1131190]
+	Ordinal0 [0x00ABE860+976992]
+	Ordinal0 [0x00ABF756+980822]
+	GetHandleVerifier [0x00E8CC62+2510274]
+	GetHandleVerifier [0x00E7F760+2455744]
+	GetHandleVerifier [0x00CAEABA+551962]
+	GetHandleVerifier [0x00CAD916+547446]
+	Ordinal0 [0x00BB5F3B+1990459]
+	Ordinal0 [0x00BBA898+2009240]
+	Ordinal0 [0x00BBA985+2009477]
+	Ordinal0 [0x00BC3AD1+2046673]
+	BaseThreadInitThunk [0x75F76739+25]
+	RtlGetFullPathName_UEx [0x775B8FEF+1215]
+	RtlGetFullPathName_UEx [0x775B8FBD+1165]
+</msg>
+<status status="FAIL" starttime="20220614 14:48:04.747" endtime="20220614 14:48:10.822"/>
+</kw>
+<status status="FAIL" starttime="20220614 14:48:04.746" endtime="20220614 14:48:10.823">NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ptab-0"]/div[2]/div[2]/div[3]/div/span"}
+  (Session info: chrome=102.0.5005.63)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00C1D953+2414931]
+	Ordinal0 [0x00BAF5E1+1963489]
+	Ordinal0 [0x00A9C6B8+837304]
+	Ordinal0 [0x00AC9500+1021184]
+	Ordinal0 [0x00AC979B+1021851]
+	Ordinal0 [0x00AF6502+1205506]
+	Ordinal0 [0x00AE44E4+1131748]
+	Ordinal0 [0x00AF4812+1198098]
+	Ordinal0 [0x00AE42B6+1131190]
+	Ordinal0 [0x00ABE860+976992]
+	Ordinal0 [0x00ABF756+980822]
+	GetHandleVerifier [0x00E8CC62+2510274]
+	GetHandleVerifier [0x00E7F760+2455744]
+	GetHandleVerifier [0x00CAEABA+551962]
+	GetHandleVerifier [0x00CAD916+547446]
+	Ordinal0 [0x00BB5F3B+1990459]
+	Ordinal0 [0x00BBA898+2009240]
+	Ordinal0 [0x00BBA985+2009477]
+	Ordinal0 [0x00BC3AD1+2046673]
+	BaseThreadInitThunk [0x75F76739+25]
+	RtlGetFullPathName_UEx [0x775B8FEF+1215]
+	RtlGetFullPathName_UEx [0x775B8FBD+1165]
+</status>
 </test>
-<status status="PASS" starttime="20220519 17:50:29.018" endtime="20220519 17:50:30.059"/>
+<test id="s1-s1-s1-t2" name="自动采集疫情数据" line="22">
+<kw name="Teststeps" library="AutoCollectCovidData">
+<msg timestamp="20220614 14:48:10.826" level="INFO" html="true">
+-- 第 1 步 -- 进入页面 
+</msg>
+<msg timestamp="20220614 14:48:10.830" level="INFO" html="true">
+** 检查点 **  是否进入成功 </msg>
+<msg timestamp="20220614 14:48:10.830" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220614 14:48:10.830" level="INFO" html="true">
+-- 第 2 步 -- 展开全部 
+</msg>
+<msg timestamp="20220614 14:48:10.948" level="INFO" html="true">
+** 检查点 **  点击展开全部是否成功 </msg>
+<msg timestamp="20220614 14:48:10.948" level="INFO" html="true">----&gt;  通过
+</msg>
+<msg timestamp="20220614 14:48:10.948" level="INFO" html="true">
+-- 第 3 步 -- 爬取国内疫情数据写入excel 
+</msg>
+<msg timestamp="20220614 14:48:10.967" level="INFO" html="true">['省市地区', '新增确诊', '新增无症状', '累计确诊', '风险地区']</msg>
+<msg timestamp="20220614 14:48:10.982" level="INFO" html="true">['台湾', '45100', '-', '2937363', '0']</msg>
+<msg timestamp="20220614 14:48:10.998" level="INFO" html="true">['香港', '124', '-', '333652', '0']</msg>
+<msg timestamp="20220614 14:48:11.046" level="INFO" html="true">['北京', '42', '32', '3591', '1']</msg>
+<msg timestamp="20220614 14:48:11.063" level="INFO" html="true">['内蒙古', '15', '9', '2040', '12']</msg>
+<msg timestamp="20220614 14:48:11.077" level="INFO" html="true">['陕西', '12', '1', '3301', '0']</msg>
+<msg timestamp="20220614 14:48:11.092" level="INFO" html="true">['广东', '8', '22', '7343', '0']</msg>
+<msg timestamp="20220614 14:48:11.106" level="INFO" html="true">['福建', '7', '1', '3337', '0']</msg>
+<msg timestamp="20220614 14:48:11.120" level="INFO" html="true">['上海', '5', '15', '63114', '36']</msg>
+<msg timestamp="20220614 14:48:11.134" level="INFO" html="true">['天津', '3', '5', '1984', '0']</msg>
+<msg timestamp="20220614 14:48:11.148" level="INFO" html="true">['湖南', '2', '1', '1396', '0']</msg>
+<msg timestamp="20220614 14:48:11.163" level="INFO" html="true">['重庆', '1', '0', '718', '0']</msg>
+<msg timestamp="20220614 14:48:11.179" level="INFO" html="true">['湖北', '0', '0', '68399', '0']</msg>
+<msg timestamp="20220614 14:48:11.194" level="INFO" html="true">['吉林', '0', '0', '40293', '0']</msg>
+<msg timestamp="20220614 14:48:11.208" level="INFO" html="true">['河南', '0', '3', '3183', '0']</msg>
+<msg timestamp="20220614 14:48:11.455" level="INFO" html="true">['浙江', '0', '6', '3142', '0']</msg>
+<msg timestamp="20220614 14:48:11.471" level="INFO" html="true">['黑龙江', '0', '0', '2986', '0']</msg>
+<msg timestamp="20220614 14:48:11.485" level="INFO" html="true">['山东', '0', '1', '2738', '0']</msg>
+<msg timestamp="20220614 14:48:11.500" level="INFO" html="true">['四川', '0', '7', '2357', '0']</msg>
+<msg timestamp="20220614 14:48:11.515" level="INFO" html="true">['江苏', '0', '2', '2235', '0']</msg>
+<msg timestamp="20220614 14:48:11.529" level="INFO" html="true">['云南', '0', '4', '2157', '0']</msg>
+<msg timestamp="20220614 14:48:11.544" level="INFO" html="true">['河北', '0', '0', '2005', '0']</msg>
+<msg timestamp="20220614 14:48:11.560" level="INFO" html="true">['辽宁', '0', '5', '1704', '2']</msg>
+<msg timestamp="20220614 14:48:11.575" level="INFO" html="true">['广西', '0', '22', '1649', '0']</msg>
+<msg timestamp="20220614 14:48:11.590" level="INFO" html="true">['江西', '0', '0', '1383', '0']</msg>
+<msg timestamp="20220614 14:48:11.606" level="INFO" html="true">['安徽', '0', '0', '1065', '0']</msg>
+<msg timestamp="20220614 14:48:11.620" level="INFO" html="true">['新疆', '0', '0', '1008', '0']</msg>
+<msg timestamp="20220614 14:48:11.635" level="INFO" html="true">['甘肃', '0', '0', '681', '0']</msg>
+<msg timestamp="20220614 14:48:11.650" level="INFO" html="true">['山西', '0', '1', '423', '0']</msg>
+<msg timestamp="20220614 14:48:11.665" level="INFO" html="true">['海南', '0', '0', '288', '0']</msg>
+<msg timestamp="20220614 14:48:11.681" level="INFO" html="true">['贵州', '0', '0', '185', '0']</msg>
+<msg timestamp="20220614 14:48:11.696" level="INFO" html="true">['青海', '0', '0', '147', '0']</msg>
+<msg timestamp="20220614 14:48:11.711" level="INFO" html="true">['宁夏', '0', '0', '122', '0']</msg>
+<msg timestamp="20220614 14:48:11.725" level="INFO" html="true">['澳门', '0', '-', '83', '0']</msg>
+<msg timestamp="20220614 14:48:11.741" level="INFO" html="true">['西藏', '0', '0', '1', '0']</msg>
+<msg timestamp="20220614 14:48:11.862" level="INFO">成功写入文件: D:\StudyProjects\robot-extended\library\..\data\CovidStatus.xlsx</msg>
+<status status="PASS" starttime="20220614 14:48:10.825" endtime="20220614 14:48:11.862"/>
+</kw>
+<status status="PASS" starttime="20220614 14:48:10.824" endtime="20220614 14:48:11.862"/>
+</test>
+<kw name="Suite Teardown" library="F" type="TEARDOWN">
+<status status="PASS" starttime="20220614 14:48:11.863" endtime="20220614 14:48:13.977"/>
+</kw>
+<status status="FAIL" starttime="20220614 14:48:00.972" endtime="20220614 14:48:13.977"/>
 </suite>
-<status status="PASS" starttime="20220519 17:50:29.016" endtime="20220519 17:50:30.060"/>
+<status status="FAIL" starttime="20220614 14:48:00.970" endtime="20220614 14:48:13.979"/>
 </suite>
-<status status="PASS" starttime="20220519 17:50:28.998" endtime="20220519 17:50:30.062"/>
+<status status="FAIL" starttime="20220614 14:48:00.952" endtime="20220614 14:48:13.981"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Cases">Cases</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s1" name="疫情实时大数据报告">Cases.疫情实时大数据报告</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="绘制地图">Cases.疫情实时大数据报告.绘制地图</stat>
+<stat pass="1" fail="1" skip="0" id="s1" name="Cases">Cases</stat>
+<stat pass="1" fail="1" skip="0" id="s1-s1" name="疫情实时大数据报告">Cases.疫情实时大数据报告</stat>
+<stat pass="1" fail="1" skip="0" id="s1-s1-s1" name="自动采集">Cases.疫情实时大数据报告.自动采集</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20220519 17:50:29.523" level="WARN">Imported library 'D:\StudyProjects\robot-extended\cases\疫情实时大数据报告\绘制地图.py' contains no keywords.</msg>
 </errors>
 </robot>

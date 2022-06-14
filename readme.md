@@ -9,6 +9,7 @@
 - `cases`：套件和用例（基于py脚本，robot脚本运行时自动生成）
 - `cfg`：配置文件
 - `data`：excel文件
+- `docs`：答辩资料
 - `extend`: Robot Framework扩展库
 - `library`: 自定义库
 - `reports`: 执行结果报告
